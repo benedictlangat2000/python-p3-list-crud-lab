@@ -1,26 +1,30 @@
 def create_an_empty_list():
-    return None
+    return []  # This function should work correctly.
 
 def create_a_list():
-    return None
+    return [1, 2, 3, 4]  # This function should work correctly.
 
 def add_element_to_end_of_list(l, element):
-    return None
+    l.append(element)  # This function should work correctly.
+    return l
 
 def add_element_to_start_of_list(l, element):
-    return None
+    l.insert(0, element)  # This function should work correctly.
+    return l
 
 def remove_element_from_end_of_list(l):
-    return None
+    l.pop()  # This function should work correctly.
+    return l
 
 def remove_element_from_start_of_list(l):
-    return None
+    del l[0]  # This function should work correctly.
+    return l
 
 def retrieve_first_element_from_list(l):
-    return None
+    return l[0]  # This function should work correctly.
 
 def retrieve_element_from_index(l, index):
-    return None
+    return l[index]  # This function should work correctly.
 
 def retrieve_last_element_from_list(l):
-    return None
+    return l[-1]  # This function should work correctly.
